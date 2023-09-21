@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tetrissim"
+version = "0.1.0"
+description = "A Simple Tetris Game"
+authors = ["Vicente Matallana <vicente.matallana@uptc.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pygame = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
